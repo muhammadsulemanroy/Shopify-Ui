@@ -1,0 +1,20 @@
+button {
+    width: 8rem;
+    height:3rem;
+    background-color: white;
+    display: grid;
+    margin-left: 30px;
+    margin-top: 10px;
+    align-items: center;
+    font-size:1rem;
+}
+
+@media (max-width:998px) {
+   button{
+          background-color: black;
+          color:white;
+          text-decoration: underline;
+          font-size:1rem;
+        } 
+    
+}

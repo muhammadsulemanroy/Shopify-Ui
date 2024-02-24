@@ -1,0 +1,85 @@
+.foot{
+    background-color: black;
+    color:white;
+}
+.foot-data{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shopify-bottom{
+    font-size:2.5rem;
+}
+.one-group-foot {
+    display: flex;
+}
+.two-group-foot{
+    display: flex;
+}
+.foot-one p{
+    margin-top:1rem;
+}
+.foot-two p{
+    margin-top:1rem;
+}
+
+.foot-three p{
+    margin-top:1rem;
+}
+
+.foot-four p{
+    margin-top:1rem;
+}
+.last{
+    display: flex;
+   justify-content: space-between;
+}
+
+.last-left{
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+}
+.last-icons{
+    display: flex;
+    justify-content: space-between;
+    width:40%; 
+    font-size: 1.5rem;
+}
+
+@media (max-width:500px) {
+    .foot-two{
+       margin-top: 3rem;
+    }
+    .one-group-foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .two-group-foot {
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-four{
+        margin-top: 13.5rem;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-left{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-left h4{
+        margin-top: 1.5rem;
+    }
+    .last-icons{
+        display: flex;
+       justify-content: space-around;
+       width:100%;
+       margin-top: 3rem;
+      
+    }
+}
